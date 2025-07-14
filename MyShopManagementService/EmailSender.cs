@@ -15,7 +15,7 @@ namespace MyShopManagementService
         public bool SendEmail(string toEmail, string subject, string mess)
         {
             var fromEmail = "quannhhe181157@fpt.edu.vn"; 
-            var pass = "hqvx uylj pzjx ytjc";
+            var pass = "kmvr ggjh atqb rcnh";
             var email = new MimeMessage();
             email.From.Add(MailboxAddress.Parse(fromEmail));
             email.To.Add(MailboxAddress.Parse(toEmail));

@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -45,6 +46,12 @@ namespace MyShopManagementGUI
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(name) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Please enter email, name, and password!", "Register Fail", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            if (password.Length < 6 || !Regex.IsMatch(password, @"[A-Z]") || !Regex.IsMatch(password, @"\d") || !Regex.IsMatch(password, @"[^a-zA-Z0-9]"))
+            {
+                MessageBox.Show("Password must be at least 6 characters long and contain at least one uppercase letter, one number, and one special character!", "Register Fail", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
