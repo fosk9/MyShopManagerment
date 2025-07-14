@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj": {}
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\MyShopManagementGUI.csproj": {}
   },
   "projects": {
-    "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj": {
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj",
+        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj",
         "projectName": "MyShopManagementBO",
-        "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj",
+        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj",
         "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
-        "outputPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementBO\\obj\\",
+        "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shares\\NuGetPackages"
@@ -53,21 +53,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.20, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.20, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -90,14 +90,14 @@
         }
       }
     },
-    "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
+        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
         "projectName": "MyShopManagementDAO",
-        "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
+        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
         "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
-        "outputPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementDAO\\obj\\",
+        "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shares\\NuGetPackages"
@@ -108,7 +108,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -116,11 +116,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj": {
-                "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj"
+              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj": {
+                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj"
               }
             }
           }
@@ -138,8 +138,20 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -151,37 +163,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj": {
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\MyShopManagementGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj",
+        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\MyShopManagementGUI.csproj",
         "projectName": "MyShopManagementGUI",
-        "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj",
+        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\MyShopManagementGUI.csproj",
         "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
-        "outputPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementGUI\\obj\\",
+        "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shares\\NuGetPackages"
@@ -192,7 +190,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -200,11 +198,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj": {
-                "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj"
+              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\MyShopManagementService.csproj": {
+                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\MyShopManagementService.csproj"
               }
             }
           }
@@ -222,8 +220,20 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -235,24 +245,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -261,18 +253,18 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj": {
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementRepository\\MyShopManagementRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj",
+        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementRepository\\MyShopManagementRepository.csproj",
         "projectName": "MyShopManagementRepository",
-        "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj",
+        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementRepository\\MyShopManagementRepository.csproj",
         "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
-        "outputPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementRepository\\obj\\",
+        "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shares\\NuGetPackages"
@@ -283,7 +275,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -291,11 +283,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
-                "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj"
+              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
+                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj"
               }
             }
           }
@@ -313,9 +305,19 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -332,37 +334,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj": {
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\MyShopManagementService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj",
+        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\MyShopManagementService.csproj",
         "projectName": "MyShopManagementService",
-        "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj",
+        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\MyShopManagementService.csproj",
         "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
-        "outputPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementService\\obj\\",
+        "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shares\\NuGetPackages"
@@ -373,7 +361,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -381,11 +369,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj": {
-                "projectPath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj"
+              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementRepository\\MyShopManagementRepository.csproj": {
+                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementRepository\\MyShopManagementRepository.csproj"
               }
             }
           }
@@ -403,9 +391,19 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -422,26 +420,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,14 @@
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\bin\Debug\net8.0\MyShopManagementBO.deps.json
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\bin\Debug\net8.0\MyShopManagementBO.runtimeconfig.json
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\bin\Debug\net8.0\MyShopManagementBO.dll
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\bin\Debug\net8.0\MyShopManagementBO.pdb
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.csproj.AssemblyReference.cache
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.GeneratedMSBuildEditorConfig.editorconfig
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.AssemblyInfoInputs.cache
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.AssemblyInfo.cs
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.csproj.CoreCompileInputs.cache
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.dll
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\refint\MyShopManagementBO.dll
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.pdb
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.genruntimeconfig.cache
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\ref\MyShopManagementBO.dll
