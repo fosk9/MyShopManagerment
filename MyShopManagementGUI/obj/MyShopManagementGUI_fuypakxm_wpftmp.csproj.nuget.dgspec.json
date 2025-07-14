@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj": {}
+  },
+  "projects": {
+    "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj",
+        "projectName": "MyShopManagementBO",
+        "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj",
+        "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
+        "outputPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementBO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Linh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
+        "projectName": "MyShopManagementDAO",
+        "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
+        "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
+        "outputPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementDAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Linh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj": {
+                "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementBO\\MyShopManagementBO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj",
+        "projectName": "MyShopManagementGUI",
+        "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementGUI\\MyShopManagementGUI.csproj",
+        "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
+        "outputPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementGUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Linh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj": {
+                "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj",
+        "projectName": "MyShopManagementRepository",
+        "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj",
+        "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
+        "outputPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Linh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
+                "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj",
+        "projectName": "MyShopManagementService",
+        "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementService\\MyShopManagementService.csproj",
+        "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
+        "outputPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Linh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj": {
+                "projectPath": "F:\\down\\FU\\Ki8\\PRN212_B5\\wpf-laptop-store-management-main\\MyShopManagementRepository\\MyShopManagementRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

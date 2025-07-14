@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "qxQFMDPBxRI=",
+  "success": false,
+  "projectFilePath": "E:\\payos-demo-java-spring-main\\wpf-laptop-store-management-main\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fosk Jesky\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Fosk Jesky\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Fosk Jesky\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project MyShopManagementBO is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project MyShopManagementBO supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "MyShopManagementBO",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
