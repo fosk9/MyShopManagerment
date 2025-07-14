@@ -62,6 +62,8 @@ namespace MyShopManagementGUI
                 .ToList();
                 dgUsers.ItemsSource = currentUserList;
                 dgUsers.SelectedIndex = mode == OperatorMode.Add ? -1 : Math.Min(index, dgUsers.Items.Count - 1);
+                // Reapply any active filter after loading full data
+                Filtering();
             }
             catch (Exception ex)
             {
@@ -78,17 +80,17 @@ namespace MyShopManagementGUI
                     btnAdd.IsEnabled = true;
                     btnUpdate.IsEnabled = false;
                     btnDelete.IsEnabled = false;
-					txtEmail.IsReadOnly = false;
-					dgUsers.SelectedIndex = -1;
-                    lbMode.Content = "Adding Mode";                    
+                    txtEmail.IsReadOnly = false;
+                    dgUsers.SelectedIndex = -1;
+                    lbMode.Content = "Adding Mode";
                     lbMode.Background = new SolidColorBrush(Colors.LightGreen);
                     break;
                 case OperatorMode.Update:
                     btnAdd.IsEnabled = false;
                     btnUpdate.IsEnabled = true;
                     btnDelete.IsEnabled = true;
-					txtEmail.IsReadOnly = true;
-					lbMode.Background = new SolidColorBrush(Colors.LightBlue);
+                    txtEmail.IsReadOnly = true;
+                    lbMode.Background = new SolidColorBrush(Colors.LightBlue);
                     lbMode.Content = "Updating Mode";
                     break;
             }
@@ -102,7 +104,7 @@ namespace MyShopManagementGUI
                 User selectedItem = (User)dgUsers.SelectedItem;
                 txtEmail.Text = selectedItem.Email;
                 txtName.Text = selectedItem.Name;
-                txtPassword.Password = selectedItem.Password;
+                txtPassword.Password = ""; // Do not display the existing password for security reasons
                 txtPhone.Text = selectedItem.Phone;
                 txtAddress.Text = selectedItem.Address;
                 chkStatus.IsChecked = selectedItem.Enabled;
@@ -219,24 +221,39 @@ namespace MyShopManagementGUI
                 throw new Exception("Email is required!");
             if (ValidateEmail(txtEmail.Text.Trim()) == false)
                 throw new Exception("Email is invalid format!");
-			
-			if (txtName.Text.Trim().Length == 0)
+
+            if (txtName.Text.Trim().Length == 0)
                 throw new Exception("Name is required!");
-            if (txtPassword.Password.Trim().Length == 0)
-                throw new Exception("Password is required & not allow for blank string!");
             if (txtPhone.Text.Length > 0 && ValidatePhoneNumber(txtPhone.Text) == false)
                 throw new Exception("Phone number is invalid format!");
 
-            var target = new User
+            User target;
+            string newPassword = txtPassword.Password.Trim();
+
+            if (mode == OperatorMode.Add)
             {
-                Email = txtEmail.Text.Trim().ToLower(),
-                Name = txtName.Text,
-                Password = txtPassword.Password,
-                Phone = txtPhone.Text,
-                Address = txtAddress.Text,                
-                RoleId = (int)cmbUserRole.SelectedValue,
-                Enabled = chkStatus.IsChecked == true,
-            };
+                if (string.IsNullOrEmpty(newPassword))
+                    throw new Exception("Password is required & not allow for blank string!");
+                target = new User();
+                target.Password = newPassword;
+            }
+            else
+            {
+                // For update, fetch the existing user to preserve unchanged fields (e.g., password)
+                target = userService.Get(getCurrentSelectedItemID());
+                if (!string.IsNullOrEmpty(newPassword))
+                {
+                    target.Password = newPassword; // Update password only if a new one is provided
+                }
+                // Else, keep the existing password
+            }
+
+            target.Email = txtEmail.Text.Trim().ToLower();
+            target.Name = txtName.Text;
+            target.Phone = txtPhone.Text;
+            target.Address = txtAddress.Text;
+            target.RoleId = (int)cmbUserRole.SelectedValue;
+            target.Enabled = chkStatus.IsChecked == true;
 
             return target;
         }
@@ -279,7 +296,7 @@ namespace MyShopManagementGUI
         }
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
-        {            
+        {
             LoginWindow loginWindow = new LoginWindow();
             loginWindow.Show();
             this.Close();
@@ -306,8 +323,10 @@ namespace MyShopManagementGUI
         }
         private void Filtering()
         {
-            dgUsers.ItemsSource = currentUserList.Where(item => item.Email.ToLower().Contains(txtSearch.Text.ToLower()) || item.Name.ToLower().Contains(txtSearch.Text.ToLower()))
-                                                .Where(item => (int)cmbFilter.SelectedValue == 0 || item.RoleId == (int)cmbFilter.SelectedValue);
+            var filteredList = currentUserList
+                .Where(item => item.Email.ToLower().Contains(txtSearch.Text.ToLower()) || item.Name.ToLower().Contains(txtSearch.Text.ToLower()))
+                .Where(item => (int)cmbFilter.SelectedValue == 0 || item.RoleId == (int)cmbFilter.SelectedValue);
+            dgUsers.ItemsSource = filteredList;
         }
     }
 }

@@ -66,7 +66,7 @@ namespace MyShopManagementGUI
             catch (Exception ex)
             {
                 MessageBox.Show("Can not load data: " + ex.Message, "Something is wrong!");
-            }            
+            }
         }
 
         private void UpdateOperatorMode(OperatorMode mode)
@@ -191,7 +191,7 @@ namespace MyShopManagementGUI
                 if (MessageBox.Show("Are you sure to delete?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No) == MessageBoxResult.Yes)
                 {
                     productService.Delete(getCurrentSelectedItemID());
-                    LoadData();                    
+                    LoadData();
                     MessageBox.Show("Delete the product successfully!", "Successfully", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
             }
@@ -231,8 +231,12 @@ namespace MyShopManagementGUI
             if (txtPrice.Text.Trim().Length == 0)
                 throw new Exception("Price is required!");
             if (txtQuantity.Text.Trim().Length == 0)
-                throw new Exception("Quantity is required!");           
-            
+                throw new Exception("Quantity is required!");
+
+            string imageUrl = txtImgProduct.Text.Trim();
+            if (!string.IsNullOrEmpty(imageUrl) && !IsValidImageUrl(imageUrl))
+                throw new Exception("Invalid image URL: must have a valid image extension (jpg, jpeg, png, gif, bmp, webp).");
+
             var target = new Product
             {
                 Id = mode == OperatorMode.Add ? 0 : getCurrentSelectedItemID(),
@@ -241,12 +245,28 @@ namespace MyShopManagementGUI
                 Price = float.Parse(txtPrice.Text),
                 Quantity = int.Parse(txtQuantity.Text),
                 Status = chkStatus.IsChecked == true,
-                CategoryId = (int) cmbProductCategory.SelectedValue,
-                Image = txtImgProduct.Text,
+                CategoryId = (int)cmbProductCategory.SelectedValue,
+                Image = imageUrl,
             };
 
             return target;
         }
+
+        private bool IsValidImageUrl(string url)
+        {
+            try
+            {
+                var uri = new Uri(url);
+                var extension = System.IO.Path.GetExtension(uri.AbsolutePath).ToLowerInvariant();
+                var validExtensions = new HashSet<string> { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+                return validExtensions.Contains(extension);
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         private void txtInteger_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
             if (!int.TryParse(e.Text, out _))
@@ -285,7 +305,7 @@ namespace MyShopManagementGUI
             }
         }
 
-        private void Filtering()          
+        private void Filtering()
         {
             dgProducts.ItemsSource = currentProductList.Where(item => item.Name.ToLower().Contains(txtSearch.Text.ToLower())).Where(item => (int)cmbFilter.SelectedValue == 0 || item.CategoryId == (int)cmbFilter.SelectedValue);
         }

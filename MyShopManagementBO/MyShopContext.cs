@@ -22,13 +22,14 @@ namespace MyShopManagementBO
         public virtual DbSet<Role> Roles { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
-        private string GetConnectionString()
+        private static string GetConnectionString()
         {
             IConfiguration config = new ConfigurationBuilder()
                  .SetBasePath(Directory.GetCurrentDirectory())
                         .AddJsonFile("appsettings.json", true, true)
                         .Build();
-            var strConn = config.GetConnectionString("DefaultConnectionString");
+            var strConn = config.GetConnectionString("DefaultConnectionString")
+                ?? throw new InvalidOperationException("Connection string 'DefaultConnectionString' not found in configuration.");
 
             return strConn;
         }
