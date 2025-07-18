@@ -1686,7 +1686,7 @@
           }
         }
       },
-      "MyShopManagementBO/1.0.0": {
+      "MyStrorageManagementBO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1695,24 +1695,24 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.1"
         },
         "compile": {
-          "bin/placeholder/MyShopManagementBO.dll": {}
+          "bin/placeholder/MyStrorageManagementBO.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MyShopManagementBO.dll": {}
+          "bin/placeholder/MyStrorageManagementBO.dll": {}
         }
       },
-      "MyShopManagementDAO/1.0.0": {
+      "MyStrorageManagementDAO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
-          "MyShopManagementBO": "1.0.0"
+          "MyStrorageManagementBO": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/MyShopManagementDAO.dll": {}
+          "bin/placeholder/MyStrorageManagementDAO.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MyShopManagementDAO.dll": {}
+          "bin/placeholder/MyStrorageManagementDAO.dll": {}
         }
       }
     }
@@ -4563,22 +4563,22 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MyShopManagementBO/1.0.0": {
+    "MyStrorageManagementBO/1.0.0": {
       "type": "project",
-      "path": "../MyShopManagementBO/MyShopManagementBO.csproj",
-      "msbuildProject": "../MyShopManagementBO/MyShopManagementBO.csproj"
+      "path": "../MyShopManagementBO/MyStrorageManagementBO.csproj",
+      "msbuildProject": "../MyShopManagementBO/MyStrorageManagementBO.csproj"
     },
-    "MyShopManagementDAO/1.0.0": {
+    "MyStrorageManagementDAO/1.0.0": {
       "type": "project",
-      "path": "../MyShopManagementDAO/MyShopManagementDAO.csproj",
-      "msbuildProject": "../MyShopManagementDAO/MyShopManagementDAO.csproj"
+      "path": "../MyShopManagementDAO/MyStrorageManagementDAO.csproj",
+      "msbuildProject": "../MyShopManagementDAO/MyStrorageManagementDAO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.1",
-      "MyShopManagementDAO >= 1.0.0",
+      "MyStrorageManagementDAO >= 1.0.0",
       "NETCore.MailKit >= 2.1.0"
     ]
   },
@@ -4615,8 +4615,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
-              "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj"
+            "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyStrorageManagementDAO.csproj": {
+              "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyStrorageManagementDAO.csproj"
             }
           }
         }

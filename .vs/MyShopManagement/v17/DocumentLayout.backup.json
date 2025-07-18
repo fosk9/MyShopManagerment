@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|e:\\visualstudio\\project\\assignment\\myshop\\myshopmanagementgui\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|solutionrelative:myshopmanagementgui\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|e:\\visualstudio\\project\\assignment\\myshop\\myshopmanagementgui\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|solutionrelative:myshopmanagementgui\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|e:\\visualstudio\\project\\assignment\\myshop\\myshopmanagementgui\\managerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|solutionrelative:myshopmanagementgui\\managerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|e:\\visualstudio\\project\\assignment\\myshop\\myshopmanagementgui\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|solutionrelative:myshopmanagementgui\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAD902FC-CF05-4FCD-BEDC-761CF7A2F0C6}|MyShopManagementGUI\\MyShopManagementGUI.csproj|e:\\visualstudio\\project\\assignment\\myshop\\myshopmanagementgui\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 147,
+          "SelectedChildIndex": 148,
           "Children": [
             {
               "$type": "Bookmark",
@@ -670,7 +670,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MyShopManagementGUI\\AdminWindow.xaml.cs",
+              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "MyShopManagementGUI\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAArwNwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T17:22:33.17Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ManagerWindow.xaml",
+              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml",
+              "RelativeDocumentMoniker": "MyShopManagementGUI\\ManagerWindow.xaml",
+              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml",
+              "RelativeToolTip": "MyShopManagementGUI\\ManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T17:24:29.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterWindow.xaml.cs",
               "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\RegisterWindow.xaml.cs",
               "RelativeDocumentMoniker": "MyShopManagementGUI\\RegisterWindow.xaml.cs",
@@ -678,20 +702,42 @@
               "RelativeToolTip": "MyShopManagementGUI\\RegisterWindow.xaml.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAjwDEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T17:59:31.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T17:59:31.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagerWindow.xaml.cs",
+              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MyShopManagementGUI\\ManagerWindow.xaml.cs",
+              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml.cs",
+              "RelativeToolTip": "MyShopManagementGUI\\ManagerWindow.xaml.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAIwEgBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T17:17:15.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "MyShopManagementGUI\\AdminWindow.xaml",
+              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml",
+              "RelativeToolTip": "MyShopManagementGUI\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T17:22:36.081Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterWindow.xaml",
-              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\RegisterWindow.xaml",
-              "RelativeDocumentMoniker": "MyShopManagementGUI\\RegisterWindow.xaml",
-              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\RegisterWindow.xaml",
-              "RelativeToolTip": "MyShopManagementGUI\\RegisterWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-14T17:59:25.517Z",
-              "EditorCaption": ""
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\EmailSender.cs",
+              "RelativeDocumentMoniker": "MyShopManagementService\\EmailSender.cs",
+              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\EmailSender.cs",
+              "RelativeToolTip": "MyShopManagementService\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T17:21:25.394Z"
             },
             {
               "$type": "Document",
@@ -707,52 +753,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminWindow.xaml.cs",
-              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MyShopManagementGUI\\AdminWindow.xaml.cs",
-              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml.cs",
-              "RelativeToolTip": "MyShopManagementGUI\\AdminWindow.xaml.cs",
-              "ViewState": "AgIAAMoAAAAAAAAAAAArwNwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T17:22:33.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManagerWindow.xaml.cs",
-              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MyShopManagementGUI\\ManagerWindow.xaml.cs",
-              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml.cs",
-              "RelativeToolTip": "MyShopManagementGUI\\ManagerWindow.xaml.cs",
-              "ViewState": "AgIAAPAAAAAAAAAAAAAIwEgBAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T17:17:15.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "MyShopManagementGUI\\AdminWindow.xaml",
-              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\AdminWindow.xaml",
-              "RelativeToolTip": "MyShopManagementGUI\\AdminWindow.xaml",
+              "DocumentIndex": 3,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "MyShopManagementGUI\\RegisterWindow.xaml",
+              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\RegisterWindow.xaml",
+              "RelativeToolTip": "MyShopManagementGUI\\RegisterWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-14T17:22:36.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\EmailSender.cs",
-              "RelativeDocumentMoniker": "MyShopManagementService\\EmailSender.cs",
-              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementService\\EmailSender.cs",
-              "RelativeToolTip": "MyShopManagementService\\EmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T17:21:25.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T17:59:25.517Z"
             },
             {
               "$type": "Document",
@@ -763,31 +771,18 @@
               "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\CustomerWindow.xaml",
               "RelativeToolTip": "MyShopManagementGUI\\CustomerWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-14T17:24:00.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T17:24:00.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "MyShopManagementGUI\\LoginWindow.xaml",
               "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\LoginWindow.xaml",
               "RelativeToolTip": "MyShopManagementGUI\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-14T17:24:13.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManagerWindow.xaml",
-              "DocumentMoniker": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml",
-              "RelativeDocumentMoniker": "MyShopManagementGUI\\ManagerWindow.xaml",
-              "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\ManagerWindow.xaml",
-              "RelativeToolTip": "MyShopManagementGUI\\ManagerWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-14T17:24:29.959Z"
+              "WhenOpened": "2025-07-14T17:24:13.672Z"
             },
             {
               "$type": "Document",
@@ -798,8 +793,7 @@
               "ToolTip": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementGUI\\MainWindow.xaml",
               "RelativeToolTip": "MyShopManagementGUI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-14T17:51:00.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T17:51:00.782Z"
             },
             {
               "$type": "Document",

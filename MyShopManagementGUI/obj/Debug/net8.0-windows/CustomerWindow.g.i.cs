@@ -181,7 +181,7 @@ namespace MyShopManagementGUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MyShopManagementGUI;component/customerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MyStrorageManagementGUI;V1.0.0.0;component/customerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CustomerWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

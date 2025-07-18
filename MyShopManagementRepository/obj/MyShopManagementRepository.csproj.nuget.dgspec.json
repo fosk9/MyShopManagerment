@@ -4,12 +4,12 @@
     "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementRepository\\MyShopManagementRepository.csproj": {}
   },
   "projects": {
-    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj": {
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyStrorageManagementBO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj",
-        "projectName": "MyShopManagementBO",
-        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj",
+        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyStrorageManagementBO.csproj",
+        "projectName": "MyStrorageManagementBO",
+        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyStrorageManagementBO.csproj",
         "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
         "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,12 +90,12 @@
         }
       }
     },
-    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
+    "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyStrorageManagementDAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
-        "projectName": "MyShopManagementDAO",
-        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj",
+        "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyStrorageManagementDAO.csproj",
+        "projectName": "MyStrorageManagementDAO",
+        "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyStrorageManagementDAO.csproj",
         "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
         "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\obj\\",
         "projectStyle": "PackageReference",
@@ -119,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj": {
-                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj"
+              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyStrorageManagementBO.csproj": {
+                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyStrorageManagementBO.csproj"
               }
             }
           }
@@ -201,8 +201,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj": {
-                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyShopManagementDAO.csproj"
+              "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyStrorageManagementDAO.csproj": {
+                "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementDAO\\MyStrorageManagementDAO.csproj"
               }
             }
           }

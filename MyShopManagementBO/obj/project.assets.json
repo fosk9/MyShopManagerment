@@ -4324,9 +4324,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj",
-      "projectName": "MyShopManagementBO",
-      "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyShopManagementBO.csproj",
+      "projectUniqueName": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyStrorageManagementBO.csproj",
+      "projectName": "MyStrorageManagementBO",
+      "projectPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\MyStrorageManagementBO.csproj",
       "packagesPath": "C:\\Users\\Fosk Jesky\\.nuget\\packages\\",
       "outputPath": "E:\\visualStudio\\project\\Assignment\\MyShop\\MyShopManagementBO\\obj\\",
       "projectStyle": "PackageReference",
