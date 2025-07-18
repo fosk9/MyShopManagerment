@@ -12,3 +12,4 @@ E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\re
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.pdb
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.genruntimeconfig.cache
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\ref\MyShopManagementBO.dll
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementBO\obj\Debug\net8.0\MyShopManagementBO.sourcelink.json

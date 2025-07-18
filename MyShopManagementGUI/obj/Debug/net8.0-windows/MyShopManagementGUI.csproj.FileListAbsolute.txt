@@ -151,3 +151,4 @@ E:\visualStudio\project\Assignment\MyShop\MyShopManagementGUI\bin\Debug\net8.0-w
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementGUI\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementGUI\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementGUI\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementGUI\obj\Debug\net8.0-windows\MyShopManagementGUI.sourcelink.json

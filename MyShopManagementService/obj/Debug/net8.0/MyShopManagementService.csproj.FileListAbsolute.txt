@@ -19,3 +19,4 @@ E:\visualStudio\project\Assignment\MyShop\MyShopManagementService\obj\Debug\net8
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementService\obj\Debug\net8.0\ref\MyShopManagementService.dll
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementService\bin\Debug\net8.0\MyShopManagementService.runtimeconfig.json
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementService\obj\Debug\net8.0\MyShopManagementService.genruntimeconfig.cache
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementService\obj\Debug\net8.0\MyShopManagementService.sourcelink.json

@@ -15,3 +15,4 @@ E:\visualStudio\project\Assignment\MyShop\MyShopManagementDAO\obj\Debug\net8.0\M
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementDAO\obj\Debug\net8.0\ref\MyShopManagementDAO.dll
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementDAO\bin\Debug\net8.0\MyShopManagementDAO.runtimeconfig.json
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementDAO\obj\Debug\net8.0\MyShopManagementDAO.genruntimeconfig.cache
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementDAO\obj\Debug\net8.0\MyShopManagementDAO.sourcelink.json

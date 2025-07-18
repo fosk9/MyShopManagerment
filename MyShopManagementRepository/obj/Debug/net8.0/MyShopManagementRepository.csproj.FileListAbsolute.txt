@@ -17,3 +17,4 @@ E:\visualStudio\project\Assignment\MyShop\MyShopManagementRepository\obj\Debug\n
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementRepository\obj\Debug\net8.0\ref\MyShopManagementRepository.dll
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementRepository\bin\Debug\net8.0\MyShopManagementRepository.runtimeconfig.json
 E:\visualStudio\project\Assignment\MyShop\MyShopManagementRepository\obj\Debug\net8.0\MyShopManagementRepository.genruntimeconfig.cache
+E:\visualStudio\project\Assignment\MyShop\MyShopManagementRepository\obj\Debug\net8.0\MyShopManagementRepository.sourcelink.json
